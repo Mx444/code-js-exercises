@@ -38,6 +38,7 @@ class Persona {
 }
 class Studente extends Persona {
   constructor(name, age, corso) {
+    ciao;
     super(name, age);
     this.corsoDiStudi = corso;
   }

@@ -33,36 +33,44 @@ class Contact {
       );
     }
   }
-
   removeContact(id) {
     this.#contatti = this.#contatti.filter((con) => id !== con.id);
     console.log(`Rimosso dalla lista ID: ${id} ✅`);
   }
 
   get getContact() {
-    return this.#contatti;
+    return console.log(this.#contatti);
   }
-  //!FIX  ricerca doppi nomi o cognomi
   findContact(nome) {
-    function findcontact(con) {
-      if (nome === con.nome || nome === con.cognome || nome === con.numero) {
-        console.log(
-          `Nome :${con.nome} , Cognome: ${con.cognome}, Numero: ${con.numero}, ID: ${con.id}`
-        );
-        return true;
-      } else {
-        return false;
-      }
+    function validateInfo(con) {
+      return (
+        nome === con.nome ||
+        nome === con.cognome ||
+        nome === con.numero ||
+        nome === con.id
+      );
     }
-    const foundContact = this.#contatti.find(findcontact);
-    if (!foundContact) {
+    const contactFilter = this.#contatti.filter(validateInfo);
+    if (contactFilter.length > 0) {
+      console.log("Contatti Trovati ✅");
+      contactFilter.forEach((con) =>
+        console.log(
+          `Nome :${con.nome} , Cognome: ${con.cognome}, Numero: ${con.numero}, ID: ${con.id} 🔎`
+        )
+      );
+    } else {
       console.log("Contatto non Trovato ❌");
     }
   }
 }
 const con = new Contact();
+con.getContact;
 con.addContact("Mario", "Rossi", 1234567890);
 con.addContact("Luca", "Rossi", 1234567890);
 con.addContact("Alberto", "Scannato", 1234567890);
 con.addContact("Giovanni", "Duca", 1234567890);
 con.addContact("Lucia", "Bastarda", 1234567890);
+con.getContact;
+con.removeContact(3);
+con.getContact;
+con.findContact("Rossi");
