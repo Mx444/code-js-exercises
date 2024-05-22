@@ -58,7 +58,7 @@ class CompagniaAerea {
     }
   }
   visualizzaVoliByID(volo) {
-    const voloID = this.listaVoli.filter((a) => volo === a.id);
+    const voloID = (a) => volo === a.id;
     if (voloID.length > 0) {
       console.log("✈️ Voli Trovati by ID 🔎");
       voloID.forEach((a) =>
