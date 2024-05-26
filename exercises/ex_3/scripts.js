@@ -58,7 +58,7 @@ class Libro {
 }
 const primoLibro = new Libro("titolo1", "hill", 1900);
 console.log(primoLibro);
-// Crea una classe `Cane` con le proprietà `nome`, `razza` e `età`.
+// Crea una classe `Cane` con le proprietà `nome`, `razza` e `età`
 class Cane {
   constructor(nome, razza, eta) {
     this.nome = nome;
