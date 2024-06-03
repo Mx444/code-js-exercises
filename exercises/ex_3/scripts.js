@@ -29,7 +29,7 @@
 // console.log(spesa.totale.reduce((a, b) => (a.prezzo += b.prezzo)));
 
 // Crea una classe Persona con le proprietà nome e età.
-// Crea una classe Studente che estenda la classe Persona e abbia una proprietà aggiuntiva corsoDiStudi.
+// Crea una classe Studente che estenda la classe Persona e abbia una proprietà aggiuntiva corsoDiStudi
 class Persona {
   constructor(name, age) {
     this.name = name;
