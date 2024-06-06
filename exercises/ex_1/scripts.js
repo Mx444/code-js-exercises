@@ -93,9 +93,9 @@
 // Creare due array di oggetti con la stessa struttura e restituire un nuovo array di oggetti che unisce le proprietà corrispondenti.
 
 // Supponiamo di avere un array di stringhe che rappresentano nomi di città. L'obiettivo è scrivere una funzione che prenda questo array e restituisca un nuovo array contenente solo le città il cui nome inizia con la lettera "B" o "b", ordinate in ordine alfabetico crescente.
-const citta = ["Palermo", "Roma", "Romagna", "Lucca", "Arezzo"];
+// const citta = ["Palermo", "Roma", "Romagna", "Lucca", "Arezzo"];
 
-const nomiCittaConR = citta.filter(function nomiConR(array) {
-  return array.charAt(0).toLowerCase() === "r";
-});
-console.log(nomiCittaConR);
+// const nomiCittaConR = citta.filter(function nomiConR(array) {
+//   return array.charAt(0).toLowerCase() === "r";
+// });
+// console.log(nomiCittaConR);
