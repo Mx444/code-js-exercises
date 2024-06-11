@@ -17,7 +17,7 @@
 // }
 // console.log(number.map(numberSquared));
 
-// 3. Convertire in maiuscolo:
+// 3. Convertire in maiuscolo
 // Creare un array di stringhe e restituire un nuovo array con tutte le stringhe in maiuscolo.
 // const names = ["davide", "luca", "alessio", "roberto", "lucia", "riccardo"];
 // function upperCase(string) {
