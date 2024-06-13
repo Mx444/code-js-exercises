@@ -26,7 +26,7 @@
 
 // console.log(names.map(upperCase));
 
-// 4. Convertire in minuscolo:
+// 4. Convertire in minuscolo
 // Creare un array di stringhe e restituire un nuovo array con tutte le stringhe in minuscolo.
 
 // const names = ["LUCA", "GIOVANNI", "DAVIDE"];
