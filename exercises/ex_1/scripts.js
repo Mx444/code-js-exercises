@@ -9,7 +9,7 @@
 
 // console.log(number.map(numberDouble));
 
-// 2. Elevare al quadrato i numeri:
+// 2. Elevare al quadrato i numeri
 // Creare un array di numeri e restituire un nuovo array con il quadrato di ogni elemento.
 // const number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // function numberSquared(number) {
