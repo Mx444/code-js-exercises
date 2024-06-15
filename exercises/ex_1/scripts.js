@@ -58,7 +58,7 @@
 
 // console.log(number.filter(evenNumber));
 
-// 7. Filtrare numeri dispari:
+// 7. Filtrare numeri dispari
 // Creare un array di numeri e restituire un nuovo array che contiene solo i numeri dispari.
 // const number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // function oddNumber(array) {
