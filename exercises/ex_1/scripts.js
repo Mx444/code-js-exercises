@@ -48,7 +48,7 @@
 // }
 // console.log(removeDouble(doubleNumber));
 
-// 6. Filtrare numeri pari:
+// 6. Filtrare numeri pari
 // Creare un array di numeri e restituire un nuovo array che contiene solo i numeri pari.
 
 // const number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
