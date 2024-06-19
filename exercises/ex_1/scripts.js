@@ -80,7 +80,7 @@
 // }
 // console.log(average());
 
-// 9. Concatenare array:
+// 9. Concatenare array
 // Creare due array e restituire un nuovo array che li concatena.
 // const fisrtNumbers = [1, 2, 3, 4, 5];
 // const secondNumbers = [6, 7, 8, 9, 10];
