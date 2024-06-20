@@ -89,7 +89,7 @@
 // thirdNumber.push(concatNumbers);
 // console.log(concatNumbers, thirdNumber);
 
-// 10. Unire oggetti:
+// 10. Unire oggetti
 // Creare due array di oggetti con la stessa struttura e restituire un nuovo array di oggetti che unisce le proprietà corrispondenti.
 
 // Supponiamo di avere un array di stringhe che rappresentano nomi di città. L'obiettivo è scrivere una funzione che prenda questo array e restituisca un nuovo array contenente solo le città il cui nome inizia con la lettera "B" o "b", ordinate in ordine alfabetico crescente.
