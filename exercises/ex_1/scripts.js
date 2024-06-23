@@ -15,7 +15,7 @@
 // function numberSquared(number) {
 //   return number * number;
 // }
-// console.log(number.map(numberSquared));
+// console.log(number.map(numberSquared))
 
 // 3. Convertire in maiuscolo
 // Creare un array di stringhe e restituire un nuovo array con tutte le stringhe in maiuscolo.
