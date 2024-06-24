@@ -7,7 +7,7 @@
 //   return number * 2;
 // }
 
-// console.log(number.map(numberDouble));
+// console.log(number.map(numberDouble))
 
 // 2. Elevare al quadrato i numeri
 // Creare un array di numeri e restituire un nuovo array con il quadrato di ogni elemento.
