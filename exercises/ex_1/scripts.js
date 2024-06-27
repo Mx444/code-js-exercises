@@ -2,7 +2,7 @@
 // 1. Raddoppiare i numeri
 // Creare un array di numeri interi e restituire un nuovo array con il doppio di ogni elemento.
 
-// const number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// const number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 // function numberDouble(number) {
 //   return number * 2;
 // }
